@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>	
+		<meta charset="utf-8">
+		<meta name="Learning Page" content="A page for interactive learning!">
+		
+		<title>"Online Quiz"</title>	
+	
+	 	<link rel = "stylesheet"
+	   	type = "text/css"
+	  	href = "style.css" />		
+	</head>
+  
+  	<div id="wrap"><body>
+ 
+  		<div class="container">
+  	
+  		<header>
+  			<h1>Welcome To The Online Quiz!</h1>
+  		</header>
+  		
+  		<nav>
+	  		<a href="madlibs.html">Mad Libs App</a> |
+	  		<a href="calculator.html">Calculator App</a> |
+	  		<a href="onlinestore.html">Online Store App</a> |
+	  		<a href="onlinequiz.html"><b>Online Quiz App</b></a> |
+  		</nav>
+  		
+  		<h5 align="center">Welcome to the online quiz! Now we will try to quiz your knowledge on the numbers 
+  		and words that you have practiced before on our website. Enjoy!</h5>
+		
+		<form name="quiz" action="onlinequiz.php" method="post">
+		
+			<div id="miniwrap">
+	    		<p align="center">Please tell us your FIRST and LAST name:</p><br>
+	    		
+				First name: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				Last name:<br>
+				<input type="text" name="firstname" placeholder="first">
+				<input type="text" name="lastname" placeholder="last">
+			</div>
+			
+			<br><br>Q1: The word "pretty" is a: <br>
+			<input type="radio" name="radio1" value="adjective"> Adjective<br>
+			<input type="radio" name="radio1" value="verb"> Verb<br>
+			<input type="radio" name="radio1" value="noun"> Noun<br>
+			
+			<br>Q2: The word "walking" is a:  <br>
+			<input type="radio" name="radio2" value="verb"> Verb<br>
+			<input type="radio" name="radio2" value="noun"> Noun<br>
+			<input type="radio" name="radio2" value="adjective"> Adjective<br>
+			
+			<br>Q3: What is (2+2)? The result is: <br>
+			<input type="radio" name="radio3" value="three"> 3<br>
+			<input type="radio" name="radio3" value="four"> 4<br>
+			<input type="radio" name="radio3" value="five"> 5<br>
+			
+			<br>Q4: What is (3*2)? The result is: <br>
+			<input type="radio" name="radio4" value="four"> 4<br>
+			<input type="radio" name="radio4" value="five"> 5<br>
+			<input type="radio" name="radio4" value="six"> 6<br>
+			
+			<br><input type="submit" value="SUBMIT" name=submit>
+			
+		</form>
+		
+		<p>Now that you're done, here you can view the<a href="quizresults.html"><b> Results!</b></a>
+		<br>Thank you again for the participation.</p>
+		
+		<footer>
+		  <h6>Posted by: Tisa Segovic. Contact information: <a href="mailto:te557@stern.nyu.edu">te557@stern.nyu.edu.</a></h6> 
+		</footer>
+		
+	</div>
+ 	
+	</body></div>
+	
+</html>

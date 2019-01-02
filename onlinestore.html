@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>	
+		<meta charset="utf-8">
+		<meta name="Learning Page" content="A page for interactive learning!">
+		
+		<title>"Online Store"</title>	
+	
+	 	<link rel = "stylesheet"
+	   	type = "text/css"
+	  	href = "style.css" />		
+	</head>
+  
+  	<div id="wrap"><body>
+ 
+  		<div class="container">
+  	
+  		<header>
+  			<h1>Welcome To The Online Store!</h1>
+  		</header>
+  		
+  		<nav>
+	  		<a href="madlibs.html">Mad Libs App</a> |
+	  		<a href="calculator.html">Calculator App</a> |
+	  		<a href="onlinestore.html"><b>Online Store App</b></a> |
+	  		<a href="onlinequiz.html">Online Quiz App</a> |
+  		</nav>
+  		
+  		<h5 align="center">Welcome to this online store for kids. Here you can buy various learning materials,
+  		including books, notebooks, and interactive videos for your young student.</h5>
+		
+		<form name="storeFor," action="online.php" method="post">
+		
+			<div id="miniwrap">
+	    		<p align="center">Please provide your personal information:</p><br>
+	    		
+				First name: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				Last name: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				&nbsp;&nbsp;&nbsp;Email:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>
+				<input type="text" name="firstname" placeholder="first">
+				<input type="text" name="lastname" placeholder="last">
+				<input type="email" name="email" placeholder="email"><br>
+			</div>		
+			
+			<br><br>What kind of product would you like to purchase?
+			<select name="selector">
+				<option value="SELECT"></option>
+				<option value="Letters-Book">Letters Book</option>
+				<option value="Math-Book">Math Book</option>
+			</select><br><br> 
+					  
+			Quantity of the product that you would like to purchase?
+			<input type="number" placeholder="amount" name="amount"><br>
+			
+			<br><input type="submit" value="SUBMIT" name=submit>
+			<input type="reset" value="RESET" name=reset>
+			
+		</form>
+		
+		<footer>
+		  <h6>Posted by: Tisa Segovic. Contact information: <a href="mailto:te557@stern.nyu.edu">te557@stern.nyu.edu.</a></h6> 
+		</footer>
+		
+	</div>
+ 	
+	</body></div>
+	
+</html>
